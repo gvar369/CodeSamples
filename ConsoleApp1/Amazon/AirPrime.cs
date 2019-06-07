@@ -32,7 +32,7 @@ namespace CodeSamples.Amazon
                             
                     }
                 }
-                //if(output.Count() > 0 || maxiterations = int.MaxValue)
+                if(output.Count() > 0 || maxiterations == int.MaxValue)
                     break;
                 m--;
                 maxiterations++;
