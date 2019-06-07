@@ -9,6 +9,34 @@ public static class Program
 {
     static void Main()
     {
+        //var inputData = new int[] { 1, 6, 2, 1, 6, 1 };
+        //var outpuData = (new KElements.KElements()).ProcessData(inputData, 2);
+
+        //var outputData = (new SummationOfPrimes.SummationOfPrimes()).ProcessDataSieve(2000000);
+        //Console.WriteLine(outputData);
+
+        //var outputData = (new SongsSelection()).IDsOfSongs(250, new List<int> {100,180,40,120,10});
+        //foreach (var i in outputData)
+        //{
+        //    Console.WriteLine(i);
+        //}
+
+        //var finput = new List<List<int>> {new List<int> {1, 3000}, new List<int> {2, 5000}, new List<int> {3, 7000}, new List<int> { 4, 10000 } };
+        //var rinput = new List<List<int>> { new List<int> { 1, 2000 }, new List<int> { 2, 3000 }, new List<int> { 3, 4000 }, new List<int> { 4, 5000 } };
+        //var outputData = (new AirPrime()).optimalUtilization(10000, finput, rinput);
+        //foreach (var i in outputData)
+        //{
+        //    foreach (var i1 in i)
+        //    {
+        //        Console.WriteLine(i1);
+        //    }
+        //}
+
+        //string[] strArr = new string[] { "[5,2,6,1,#,8,#]" };
+        //var data = strArr[0].Where(w => w != '[' && w != ']' && w != ',').ToArray();
+        //Console.WriteLine(data[0]);
+        //Console.WriteLine((int)'1');
+
         //using (StreamReader reader = new StreamReader(Console.OpenStandardInput()))
         //    while (!reader.EndOfStream)
         //    {
