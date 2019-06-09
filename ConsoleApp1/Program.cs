@@ -60,16 +60,19 @@ namespace CodeSamples
             //var result = GcdOfStrings.GcdOfStrings1("ABCABC", "ABC");
             //Console.WriteLine(string.Join(" ", result));
 
-            var stack = new StackImplementationUsingQueue();
-            stack.Push(1);
-            stack.Push(4);
-            stack.Push(5);
-           int x= stack.Pop();
-            Console.WriteLine(x);
-            stack.Push(14);
-            stack.Push(15);
-            int y = stack.Pop();
-            Console.WriteLine(y);
+            // var stack = new StackImplementationUsingQueue();
+            // stack.Push(1);
+            // stack.Push(4);
+            // stack.Push(5);
+            //int x= stack.Pop();
+            // Console.WriteLine(x);
+            // stack.Push(14);
+            // stack.Push(15);
+            // int y = stack.Pop();
+            // Console.WriteLine(y);
+            var power = new PowerFunction();
+           var element=power.ImplementPower1((double)2, (double)32);
+            Console.WriteLine(element);
 
         }
     }
