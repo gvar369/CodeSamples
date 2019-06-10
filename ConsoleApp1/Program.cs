@@ -70,10 +70,10 @@ namespace CodeSamples
             // stack.Push(15);
             // int y = stack.Pop();
             // Console.WriteLine(y);
-            var power = new PowerFunction();
-           var element=power.ImplementPower1((double)2, (double)32);
-            Console.WriteLine(element);
-
+           // var power = new PowerFunction();
+           //var element=power.ImplementPower1((double)2, (double)32);
+           // Console.WriteLine(element);
+           
         }
     }
 }
