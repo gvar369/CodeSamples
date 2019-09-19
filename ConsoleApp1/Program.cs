@@ -70,10 +70,42 @@ namespace CodeSamples
             // stack.Push(15);
             // int y = stack.Pop();
             // Console.WriteLine(y);
-           // var power = new PowerFunction();
-           //var element=power.ImplementPower1((double)2, (double)32);
-           // Console.WriteLine(element);
-           
+            // var power = new PowerFunction();
+            //var element=power.ImplementPower1((double)2, (double)32);
+            // Console.WriteLine(element);
+            var check = new CheckPair();
+            int[] A = new int[] { -8, 1, 4, 6, 10, 45 };
+            int S = 16;
+            var x= check.CheckPairInSum(A, S);
+            Console.WriteLine(x[0]+ " " + x[1]);
+
+            List<Person> emps = new List<Person>();
+            Student s = new Student();
+            s.Name = "Jesse";
+            s.Age = 15;
+            s.GradeLevel = 8;
+
+            Employee e = new Employee();
+            e.Name = "Bob";
+            e.Age = 35;
+            e.ID = "631477wqgf";
+
+            emps.Add(s);
+            emps.Add(e);
+
+            foreach(Person p in emps)
+            {
+                if(p is Student)
+                {
+                    Student temp = p as Student;
+                    Console.WriteLine(temp.GradeLevel);
+                }
+                else if(p is Employee)
+                {
+                    Employee temp = p as Employee;
+                    Console.WriteLine(temp.ID);
+                }
+            }
         }
     }
 }
